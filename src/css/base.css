@@ -16,12 +16,30 @@
   -webkit-text-size-adjust: 100%;
 }
 
+
+@font-face {
+  font-family: 'STSong';
+  src: url('fonts/STSong-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Style Script';
+  src: url('fonts/StyleScript-Regular.ttf') format('truetype');
+  /* Или используйте формат 'opentype', если у вас .otf */
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
+  font-family: 'Inter', sans-serif;;
   display: flex;
   flex-direction: column;
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+  background-color: #F5F5F5;
 }
 
 main {
@@ -30,3 +48,21 @@ main {
 main:has(.back-link) {
   text-align: center;
 }
+
+
+body {
+
+
+  color: #0c0c0c;
+}
+
+.container {
+  width: 1340px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+section {
+  margin-top: 0;
+}
+
