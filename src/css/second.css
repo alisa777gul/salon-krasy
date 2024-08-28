@@ -6,8 +6,9 @@
 
 .cont-second {
     position: relative;
-    padding-top: 240px;
+ 
     text-align: center;
+  height: 946px;
 }
 
 .second-title {
@@ -16,6 +17,7 @@
     line-height: 1.5;
     text-align: center;
     color: #000;
+   
     font-family: "Abhaya Libre", sans-serif;
 }
 
@@ -37,6 +39,12 @@
     font-family: 'Sevillana', cursive;
     font-weight: 700;
     margin: -24px 0 20px;
+}
+
+.text-section{
+    position: absolute;
+    top: 25%;
+    right: 25%;
 }
 
 .second-text {
@@ -89,7 +97,7 @@ img {
 
 .first-img {
     top: 117px;
-    left: 86px;
+    left: 36px;
     width: 221px;
     height: 183px;
     animation: fadeIn 3s ease-in-out 0ms;
@@ -97,7 +105,7 @@ img {
 
 .second-img {
     top: 21px;
-    right: 259px;
+    right: 209px;
     width: 159px;
     height: 201px;
     animation: fadeIn 3s ease-in-out 1s;
@@ -105,7 +113,7 @@ img {
 
 .third-img {
     top: 266px;
-    right: 115px;
+    right: 65px;
     width: 221px;
     height: 114px;
     animation: fadeIn 3s ease-in-out 2s;
@@ -113,7 +121,7 @@ img {
 
 .fourth-img {
     top: 488px;
-    left: 144px;
+    left: 94px;
     width: 221px;
     height: 220px;
     animation: fadeIn 3s ease-in-out 3s;
@@ -121,7 +129,7 @@ img {
 
 .fifth-img {
     top: 569px;
-    right: 202px;
+    right: 152px;
     width: 222px;
     height: 220px;
     animation: fadeIn 3s ease-in-out 4s;
