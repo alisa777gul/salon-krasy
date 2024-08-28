@@ -1,11 +1,11 @@
 .second-section {
     min-height: 946px;
-  position: relative;
+
     /* Ensure that child elements with absolute positioning are correctly placed */
 }
 
 .cont-second {
-   
+     position: relative;
 
     text-align: center;
     height: 946px;
@@ -109,10 +109,10 @@ img {
 
 .first-img {
     top: 117px;
-    left: 36px;
+    left: 86px;
     width: 221px;
     height: 183px;
-    animation: fadeIn 3s ease-in-out 0ms;
+    animation: fadeIn 3s ease-in-out 1ms infinite;
 }
 
 .second-img {
@@ -120,7 +120,7 @@ img {
     right: 209px;
     width: 159px;
     height: 201px;
-    animation: fadeIn 3s ease-in-out 1s;
+    animation: fadeIn 3s ease-in-out 2s infinite;
 }
 
 .third-img {
@@ -128,7 +128,7 @@ img {
     right: 65px;
     width: 221px;
     height: 114px;
-    animation: fadeIn 3s ease-in-out 2s;
+    animation: fadeIn 3s ease-in-out 3s infinite;
 }
 
 .fourth-img {
@@ -136,7 +136,7 @@ img {
     left: 94px;
     width: 221px;
     height: 220px;
-    animation: fadeIn 3s ease-in-out 3s;
+    animation: fadeIn 3s ease-in-out 4s infinite;
 }
 
 .fifth-img {
@@ -144,7 +144,7 @@ img {
     right: 152px;
     width: 222px;
     height: 220px;
-    animation: fadeIn 3s ease-in-out 4s;
+    animation: fadeIn 3s ease-in-out 5s infinite;
 }
 
 @keyframes fadeIn {

@@ -1,58 +1,55 @@
+body {
+    color: #0c0c0c;
+}
+
 .cont-hero {
-   min-width: 1440px;
-   width: 1340px;
+    width: 100%;
+    /* Автоматическая подстройка под ширину окна браузера */
+    max-width: 1440px;
+    /* Ограничение максимальной ширины */
     min-height: 750px;
     position: relative;
     overflow: hidden;
     margin: 0 auto;
-    /* Центрирует контейнер по горизонтали */
+    /* Центрирование контейнера по горизонтали */
 }
 
-/* Hero section styling */
 .hero-section {
-    position: relative;
-    min-height: 750px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-top: 20px;
+    max-height: 750px;
     overflow: hidden;
-    margin-top: 20px;
     /* Обеспечивает, что содержимое не выходит за пределы контейнера */
 }
 
-/* Image container setup */
 .image-container {
     position: absolute;
-    /* Absolute positioning within the parent */
+    /* Абсолютное позиционирование внутри родительского контейнера */
+    top: 0;
+    right: 50px;
     width: 938px;
     height: 750px;
-    right: 0px;
-    top: 0;
     overflow: hidden;
-    /* Hide any overflow */
+    /* Прячет выходящее за границы содержимое */
     z-index: 3;
-    /* Lower z-index than the title */
+    /* Расположен ниже заголовка */
 }
 
-/* Image styling */
 .image-container img {
     width: 100%;
-    /* Stretch image to fit container width */
+    /* Растягивает изображение по ширине контейнера */
     height: 100%;
-    /* Stretch image to fit container height */
+    /* Растягивает изображение по высоте контейнера */
     object-fit: cover;
-    /* Cover the container while maintaining aspect ratio */
-object-position: left center;
-    /* Focus on the right side of the image */
-  
+    /* Изображение заполняет контейнер, сохраняя пропорции */
+    object-position: left center;
+    /* Фокус на левой части изображения */
 }
 
-/* Hero title */
 .hero-title {
     position: relative;
-    /* Ensure it can be layered on top of the image */
+    /* Относительное позиционирование, чтобы слой был поверх изображения */
     z-index: 100;
-    /* Higher z-index to place on top of image */
+    /* Заголовок размещается поверх изображения */
     font-family: 'Abhaya Libre', serif;
     font-weight: 600;
     font-size: 88px;
@@ -60,11 +57,11 @@ object-position: left center;
     color: #000;
     min-width: 510px;
     padding-left: 50px;
+    /* Паддинг слева для отступа */
     padding-top: 150px;
     max-height: 282px;
 }
 
-/* Beauty class */
 .beauty {
     display: block;
     font-weight: 600;
@@ -75,7 +72,6 @@ object-position: left center;
     max-height: 282px;
 }
 
-/* Button styling */
 .button-hero {
     font-weight: 400;
     font-size: 14px;
@@ -94,25 +90,25 @@ object-position: left center;
 }
 
 .button-hero:hover,
-.button-hero:focus{
-background-color: #589b7ac2;
-color: #000;
+.button-hero:focus {
+    background-color: #589b7ac2;
+    color: #000;
 }
 
-/* You class */
 .you {
     position: absolute;
-    /* Ensure it is positioned relative to its container */
+    /* Абсолютное позиционирование текста "you" */
     font-weight: 400;
     font-size: 175px;
     line-height: 1.04;
     text-align: right;
     font-style: italic;
-    color:  #589b7ac2;
-font-family: 'Sevillana', cursive;
+    color: #589b7ac2;
+    font-family: 'Sevillana', cursive;
     font-weight: 700;
     transform: rotate(6deg);
+    /* Наклон текста */
     z-index: 1000;
-    /* Ensure this is on top */
+    /* Этот текст должен быть на переднем плане */
     left: 423px;
 }
