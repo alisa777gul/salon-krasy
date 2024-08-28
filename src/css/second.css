@@ -1,155 +1,138 @@
-.second-section{
+.second-section {
     min-height: 946px;
- 
+    position: relative;
+    /* Ensure that child elements with absolute positioning are correctly placed */
 }
 
-.cont-second{
-position: relative;
-padding-top: 240px;
+.cont-second {
+    position: relative;
+    padding-top: 240px;
+    text-align: center;
 }
 
-.second-title{
+.second-title {
     font-weight: 600;
-        font-size: 65px;
-        line-height: 1.50769;
-        text-align: center;
-        color: #000;
-        font-family: "Abhaya Libre", sans-serif;
-        /* margin-top: 240px; */
+    font-size: 65px;
+    line-height: 1.5;
+    text-align: center;
+    color: #000;
+    font-family: "Abhaya Libre", sans-serif;
 }
 
-.second-span{
+.second-span {
     display: block;
     font-weight: 600;
-        font-size: 70px;
-        line-height: 1.4;
-        text-align: center;
-        color: #000;
+    font-size: 70px;
+    line-height: 1.4;
+    text-align: center;
+    color: #000;
 }
 
-.skincare{
-   
-        font-size: 137px;
-        line-height: 0.81752;
-        text-align: center;
-        color: #68513f;
-        transform: rotate(-5deg);
-        color: #589b7ac2;
-            font-family: 'Sevillana', cursive;
-            font-weight: 700;
-            margin-top: -24px;
-            margin-bottom: 20px;
+.skincare {
+    font-size: 137px;
+    line-height: 0.82;
+    text-align: center;
+    color: #589b7ac2;
+    transform: rotate(-5deg);
+    font-family: 'Sevillana', cursive;
+    font-weight: 700;
+    margin: -24px 0 20px;
 }
 
-.second-text{
-font-weight: 400;
+.second-text {
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.4;
-text-align: center;
+    text-align: center;
     color: #000;
- margin: 0 auto;
+    margin: 0 auto;
     max-width: 649px;
-    left: 50%;
 }
 
-.second-link{
+.second-link {
     font-weight: 400;
-        font-size: 14px;
-        line-height: 1.4;
-        text-align: center;
-        color: #68513f;
-        border: 1px solid #dacec6;
-            border-radius: 73px;
-        padding: 13px 21px;
-            background: #f1ebe7;
-                transition: background-color 1.5s, color 1.5s;
-             
-           
-                  margin: 0 auto;
-               display: flex;
-               justify-content: center;
-               align-items: center;
-               max-width: 95px;
-               max-height: 45px;
-               margin-top: 48px;
-}
+    font-size: 14px;
+    line-height: 1.4;
+    text-align: center;
+    /* Centers text inside the link */
+    color: #68513f;
+    border: 1px solid #dacec6;
+    border-radius: 73px;
+    padding: 13px 21px;
+    background: #f1ebe7;
 
+    /* Shortened transition duration for better responsiveness */
+    transition: background-color 0.3s, color 0.3s;
+
+    /* Centering properties */
+   
+display: inline-block;
+    /* Adjust margins */
+    margin: 48px auto 0;
+    /* Center with auto margins on left and right */
+    max-width: 95px;
+    /* Limit the width */
+    max-height: 45px;
+    /* Limit the height */
+}
 .second-link:hover,
 .second-link:focus {
     background-color: #589b7ac2;
     color: #000;
 }
 
-.first-img {
-    display: block;
-    position: absolute;
-    top: 117px;;
-    left: 36px;
+img {
     border-radius: 10px;
-        width: 221px;
-        height: 183px;
-animation: my-animation 3s ease-in-out;
-animation-delay: 0ms;
-   
+    position: absolute;
+  
 }
 
-.second-img {display: block;
-    position: absolute;
-    top: 21px ;
-    right: 209px;
-    border-radius: 10px;
-        width: 159px;
-        height: 201px;
-        animation: my-animation 3s ease-in-out;
-        animation-delay: 1ms;
-         
+.first-img {
+    top: 117px;
+    left: 86px;
+    width: 221px;
+    height: 183px;
+    animation: fadeIn 3s ease-in-out 0ms;
+}
+
+.second-img {
+    top: 21px;
+    right: 259px;
+    width: 159px;
+    height: 201px;
+    animation: fadeIn 3s ease-in-out 1s;
 }
 
 .third-img {
-    border-radius: 10px;
+    top: 266px;
+    right: 115px;
     width: 221px;
     height: 114px;
-    position: absolute;
-        top: 266px;
-        right: 65px;
-        animation: my-animation 3s ease-in-out;
-        animation-delay: 2ms;
-           
+    animation: fadeIn 3s ease-in-out 2s;
 }
 
-.fourth-img {border-radius: 10px;
+.fourth-img {
+    top: 488px;
+    left: 144px;
     width: 221px;
     height: 220px;
-    position: absolute;
-        top: 488px;
-        left:  94px;
-        animation: my-animation 3s ease-in-out;
-        animation-delay:3ms;
-          
+    animation: fadeIn 3s ease-in-out 3s;
 }
 
-@keyframes my-animation {
-    0% {
+.fifth-img {
+    top: 569px;
+    right: 202px;
+    width: 222px;
+    height: 220px;
+    animation: fadeIn 3s ease-in-out 4s;
+}
+
+@keyframes fadeIn {
+    from {
         opacity: 0;
-        
     }
 
-    100% {
+    to {
         opacity: 1;
     }
 }
-
-.fifth-img {border-radius: 10px;
-    width: 222px;
-    height: 220px;
-    position: absolute;
-        top: 569px;
-        right: 152px;
-        animation-name: my-animation;
-    animation: my-animation 3s ease-in-out;
-animation-delay: 4ms;
-        
-}
-
-
-
