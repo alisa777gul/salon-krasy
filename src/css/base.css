@@ -18,18 +18,67 @@
 
 
 @font-face {
-  font-family: 'STSong';
-  src: url('fonts/STSong-Regular.ttf') format('truetype');
+  font-family: 'STSong-Light';
+  src: url('/fonts/STSong-Light.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Style Script';
-  src: url('fonts/StyleScript-Regular.ttf') format('truetype');
-  /* Или используйте формат 'opentype', если у вас .otf */
+  font-family: 'STSong-Regular';
+  src: url('/fonts/STSong-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+}
+
+@font-face {
+  font-family: 'STSong-Bold';
+  src: url('/fonts/STSong-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+/* Regular */
+@font-face {
+  font-family: 'Style Script';
+  src: url('/fonts/StyleScript-Regular.woff2') format('woff2'),
+    url('/fonts/StyleScript-Regular.woff') format('woff'),
+    url('/fonts/StyleScript-Regular.ttf') format('truetype');
+  font-weight: 400;
+  /* Normal weight */
+  font-style: normal;
+}
+
+/* Bold */
+@font-face {
+  font-family: 'Style Script';
+  src: url('/fonts/StyleScript-Bold.woff2') format('woff2'),
+    url('/fonts/StyleScript-Bold.woff') format('woff'),
+    url('/fonts/StyleScript-Bold.ttf') format('truetype');
+  font-weight: 700;
+  /* Bold weight */
+  font-style: normal;
+}
+
+/* Italic */
+@font-face {
+  font-family: 'Style Script';
+  src: url('/fonts/StyleScript-Italic.woff2') format('woff2'),
+    url('/fonts/StyleScript-Italic.woff') format('woff'),
+    url('/fonts/StyleScript-Italic.ttf') format('truetype');
+  font-weight: 400;
+  /* Normal weight */
+  font-style: italic;
+}
+
+/* Bold Italic */
+@font-face {
+  font-family: 'Style Script';
+  src: url('/fonts/StyleScript-BoldItalic.woff2') format('woff2'),
+    url('/fonts/StyleScript-BoldItalic.woff') format('woff'),
+    url('/fonts/StyleScript-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  /* Bold weight */
+  font-style: italic;
 }
 
 body {

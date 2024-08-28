@@ -1,0 +1,112 @@
+.cont-hero {
+    max-width: 1340px;
+    min-height: 750px;
+    position: relative;
+    /* Allows for absolute positioning of children */
+    overflow: hidden;
+    margin-top: 20px;
+    /* Crops overflowed content */
+}
+
+/* Hero section styling */
+.hero-section {
+    min-height: 750px;
+    /* Minimum height of the hero section */
+}
+
+/* Image container setup */
+.image-container {
+    position: absolute;
+    /* Absolute positioning within the parent */
+    width: 938px;
+    height: 750px;
+    right: 50px;
+    top: 0;
+    overflow: hidden;
+    /* Hide any overflow */
+    z-index: 3;
+    /* Lower z-index than the title */
+}
+
+/* Image styling */
+.image-container img {
+    width: 100%;
+    /* Stretch image to fit container width */
+    height: 100%;
+    /* Stretch image to fit container height */
+    object-fit: cover;
+    /* Cover the container while maintaining aspect ratio */
+object-position: left center;
+    /* Focus on the right side of the image */
+  
+}
+
+/* Hero title */
+.hero-title {
+    position: relative;
+    /* Ensure it can be layered on top of the image */
+    z-index: 100;
+    /* Higher z-index to place on top of image */
+    font-family: 'Abhaya Libre', serif;
+    font-weight: 600;
+    font-size: 88px;
+    line-height: 1.43182;
+    color: #000;
+    min-width: 510px;
+    padding-left: 50px;
+    padding-top: 150px;
+    max-height: 282px;
+}
+
+/* Beauty class */
+.beauty {
+    display: block;
+    font-weight: 600;
+    font-size: 81px;
+    line-height: 1.55556;
+    color: #000;
+    max-width: 500px;
+    max-height: 282px;
+}
+
+/* Button styling */
+.button-hero {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #68513f;
+    margin-left: 50px;
+    background: #f1ebe7;
+    border: 1px solid #dacec6;
+    width: 143px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 43px;
+    transition: background-color 1.5s, color 1.5s;
+}
+
+.button-hero:hover,
+.button-hero:focus{
+background-color: #589b7ac2;
+color: #000;
+}
+
+/* You class */
+.you {
+    position: absolute;
+    /* Ensure it is positioned relative to its container */
+    font-weight: 400;
+    font-size: 175px;
+    line-height: 1.04;
+    text-align: right;
+    font-style: italic;
+    color:  #589b7ac2;
+font-family: 'Sevillana', cursive;
+    font-weight: 700;
+    transform: rotate(6deg);
+    z-index: 1000;
+    /* Ensure this is on top */
+    left: 423px;
+}

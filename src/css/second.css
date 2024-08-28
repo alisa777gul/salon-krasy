@@ -1,0 +1,155 @@
+.second-section{
+    min-height: 946px;
+ 
+}
+
+.cont-second{
+position: relative;
+padding-top: 240px;
+}
+
+.second-title{
+    font-weight: 600;
+        font-size: 65px;
+        line-height: 1.50769;
+        text-align: center;
+        color: #000;
+        font-family: "Abhaya Libre", sans-serif;
+        /* margin-top: 240px; */
+}
+
+.second-span{
+    display: block;
+    font-weight: 600;
+        font-size: 70px;
+        line-height: 1.4;
+        text-align: center;
+        color: #000;
+}
+
+.skincare{
+   
+        font-size: 137px;
+        line-height: 0.81752;
+        text-align: center;
+        color: #68513f;
+        transform: rotate(-5deg);
+        color: #589b7ac2;
+            font-family: 'Sevillana', cursive;
+            font-weight: 700;
+            margin-top: -24px;
+            margin-bottom: 20px;
+}
+
+.second-text{
+font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+text-align: center;
+    color: #000;
+ margin: 0 auto;
+    max-width: 649px;
+    left: 50%;
+}
+
+.second-link{
+    font-weight: 400;
+        font-size: 14px;
+        line-height: 1.4;
+        text-align: center;
+        color: #68513f;
+        border: 1px solid #dacec6;
+            border-radius: 73px;
+        padding: 13px 21px;
+            background: #f1ebe7;
+                transition: background-color 1.5s, color 1.5s;
+             
+           
+                  margin: 0 auto;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               max-width: 95px;
+               max-height: 45px;
+               margin-top: 48px;
+}
+
+.second-link:hover,
+.second-link:focus {
+    background-color: #589b7ac2;
+    color: #000;
+}
+
+.first-img {
+    display: block;
+    position: absolute;
+    top: 117px;;
+    left: 36px;
+    border-radius: 10px;
+        width: 221px;
+        height: 183px;
+animation: my-animation 3s ease-in-out;
+animation-delay: 0ms;
+   
+}
+
+.second-img {display: block;
+    position: absolute;
+    top: 21px ;
+    right: 209px;
+    border-radius: 10px;
+        width: 159px;
+        height: 201px;
+        animation: my-animation 3s ease-in-out;
+        animation-delay: 1ms;
+         
+}
+
+.third-img {
+    border-radius: 10px;
+    width: 221px;
+    height: 114px;
+    position: absolute;
+        top: 266px;
+        right: 65px;
+        animation: my-animation 3s ease-in-out;
+        animation-delay: 2ms;
+           
+}
+
+.fourth-img {border-radius: 10px;
+    width: 221px;
+    height: 220px;
+    position: absolute;
+        top: 488px;
+        left:  94px;
+        animation: my-animation 3s ease-in-out;
+        animation-delay:3ms;
+          
+}
+
+@keyframes my-animation {
+    0% {
+        opacity: 0;
+        
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.fifth-img {border-radius: 10px;
+    width: 222px;
+    height: 220px;
+    position: absolute;
+        top: 569px;
+        right: 152px;
+        animation-name: my-animation;
+    animation: my-animation 3s ease-in-out;
+animation-delay: 4ms;
+        
+}
+
+
+
