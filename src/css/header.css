@@ -40,6 +40,7 @@
   color: #222;
   transition: color 0.3s;
   /* Adjusted for smooth color transition */
+  transition:  color 0.3s;
 }
 
 /* Cart Item Styling */

@@ -84,7 +84,7 @@ object-position: left center;
     justify-content: center;
     align-items: center;
     margin-top: 43px;
-    transition: background-color 1.5s, color 1.5s;
+    transition: background-color 0.3s, color 0.3s;
 }
 
 .button-hero:hover,
