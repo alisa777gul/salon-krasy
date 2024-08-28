@@ -1,14 +1,25 @@
 .second-section {
     min-height: 946px;
-    position: relative;
+  position: relative;
     /* Ensure that child elements with absolute positioning are correctly placed */
 }
 
 .cont-second {
-    position: relative;
- 
+   
+
     text-align: center;
-  height: 946px;
+    height: 946px;
+
+}
+
+.cont-second {
+    min-width: 1440px;
+    width: 1440px;
+  
+  
+    overflow: hidden;
+    
+    /* Центрирует контейнер по горизонтали */
 }
 
 .second-title {
@@ -17,7 +28,7 @@
     line-height: 1.5;
     text-align: center;
     color: #000;
-   
+
     font-family: "Abhaya Libre", sans-serif;
 }
 
@@ -41,7 +52,7 @@
     margin: -24px 0 20px;
 }
 
-.text-section{
+.text-section {
     position: absolute;
     top: 25%;
     right: 25%;
@@ -73,8 +84,8 @@
     transition: background-color 0.3s, color 0.3s;
 
     /* Centering properties */
-   
-display: inline-block;
+
+    display: inline-block;
     /* Adjust margins */
     margin: 48px auto 0;
     /* Center with auto margins on left and right */
@@ -83,6 +94,7 @@ display: inline-block;
     max-height: 45px;
     /* Limit the height */
 }
+
 .second-link:hover,
 .second-link:focus {
     background-color: #589b7ac2;
@@ -92,7 +104,7 @@ display: inline-block;
 img {
     border-radius: 10px;
     position: absolute;
-  
+
 }
 
 .first-img {
