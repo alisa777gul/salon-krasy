@@ -88,10 +88,17 @@ body {
   min-width: 100vw;
   min-height: 100vh;
   margin: 0;
+    overflow-x: hidden;
   background-color: #b6d6c99c;
 }
 
 main {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Центрирование по горизонтали */
+    justify-content: center;
+    /* Центрирование по вертикали */
   flex-grow: 1;
 }
 main:has(.back-link) {
@@ -106,12 +113,14 @@ body {
 }
 
 .container {
-  width: 1340px;
+ max-width: 1340px;
   margin: 0 auto;
   padding: 0 50px;
 }
 
 section {
   margin-top: 0;
+  margin: 0 auto;
+  max-width: 1340px;
 }
 
